@@ -143,11 +143,13 @@ namespace com.clusterrr.hakchi_gui
                     application = "/bin/n64";
                     break;
                 case ".smc":
+                case ".sfc":
                     prefixCode = 'E';
                     application = "/bin/snes";
                     break;
                 case ".gen":
                 case ".smd":
+                case ".md":
                     prefixCode = 'G';
                     application = "/bin/md";
                     break;
